@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="UTF-8">
+<title>Contact the site</title>
+<base href="http://localhost/Work_Flow_Exercise/" />
+<script src="assets/libs/modernizr/min/modernizr.min.js"></script>
+<link href="assets/css/core.css" rel="stylesheet" />
+<style>
+	section{
+		display: block;
+	}
+	.form{
+		width: 100%;
+		display: table;
+	}
+	.form label{
+		display: table-row;
+
+	}
+	.form label span{
+		width: 30%;
+		display: table-cell;
+		margin: 1em 0;
+	}
+	.form label input,.form label textarea{
+		width: 70%;
+		display: table-cell;
+		margin: 1em 0;
+	}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<h1>The site</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="content">
+<section>
+	<h2>Contact me online</h2>
+	<form class="form" id="contactform" action="assets/scripts/mail.php" method="post">
+		<label>
+			<span>Name:</span>
+			<input type="text" name="name" id="name" required />
+		</label>
+		<label>
+			<span>Email:</span>
+			<input type="email" name="email" id="email" required />
+		</label>
+		<label>
+			<span>Comment:</span>
+			<textarea cols="18" rows="8" name="comment" id="comment"></textarea>
+		</label>
+		<label>
+			<span>&nbsp;</span>
+			<input type="submit" name="submit" value="Send Comment" />
+		</label>
+	</form>
+</section>
+<section>
+	<h2>Other ways to contact me</h2>
+</section>
+</div>
+
+<footer>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<cite>&copy; 2000 &ndash; 2013 The Site. All rights reserved.</cite>
+</footer>
+</div>
+<script src="assets/libs/jquery/min/jquery.min.js"></script>
+<script src="assets/libs/jquery/min/jquery.validate.min.js"></script>
+<script src="assets/js/core.js"></script>
+</body>
+</html>
