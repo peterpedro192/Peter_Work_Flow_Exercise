@@ -141,7 +141,7 @@
 
     <?php
 
-    }//if submit then displays message, if not will re-display form. Note the spanning of php across html
+    }//if submit then displays message and form disappears (not normallyu what we want), if not will re-display form. Note the spanning of php across html
     
     ?>
 
