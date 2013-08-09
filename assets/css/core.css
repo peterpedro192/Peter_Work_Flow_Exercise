@@ -1,18 +1,18 @@
 @import url('reset.css');
 
-@import url('http://fonts.googleapis.com/css?family=Caesar+Dressing');
-/* Source: http://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Caesar+Dressing */
-/* Use of converted font file - using fontfacegenerator from everythingfonts.com, place files into fonts folder and copy the css below*/
+@import url('http://fonts.googleapis.com/css?family=Kite+One');
+/* Source: http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Kite+One */
+/* Use of converted font file - using fontfacegenerator from everythingfonts.com, place files into fonts folder and copy the css below
 @font-face {
   font-family: 'GrinchedRegular';
   src: url('../fonts/grinched.eot');
   src: url('../fonts/grinched.eot') format('embedded-opentype'), url('../fonts/grinched.woff') format('woff'), url('../fonts/grinched.ttf') format('truetype'), url('../fonts/grinched.svg#GrinchedRegular') format('svg');
 }
-/* Colour scheme Monotone */
+ Colour scheme Monotone */
 /* Mixins */
 /* Default styles */
 body {
-  font-family: 'GrinchedRegular', sans-serif;
+  font-family: 'Kite One', sans-serif;
   text-resize: none;
   max-width: 60em;
   margin: 0 auto;
